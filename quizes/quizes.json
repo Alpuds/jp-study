@@ -1,0 +1,5 @@
+{
+    "1-1 hiragana": "./quizes/module-1/1-1-quiz_hiragana.json",
+    "1-2 katakana": "./quizes/module-1/1-2-quiz_katakana.json",
+    "1-3 kanji": "./quizes/module-1/1-3-quiz_kanji.json"
+}

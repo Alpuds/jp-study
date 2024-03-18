@@ -1,0 +1,45 @@
+{
+    "directions": "Select the correct romanization of the following hiragana characters.\nThe number next to the hiragana indicates the question number, not the number representing the option.",
+    "question-1":
+        {
+            "question": "ありがとう",
+            "optionA": "orikakou",
+            "optionB": "arikatou",
+            "correctOption": "arigatou"
+        },
+    "question-2":
+        {
+            "question": "きれい",
+            "optionA": "sareko",
+            "optionB": "kiwai",
+            "correctOption": "kirei"
+        },
+    "question-3":
+        {
+            "question": "かのじょ",
+            "optionA": "konasho",
+            "optionB": "kanosho",
+            "correctOption": "kanojo"
+        },
+    "question-4":
+        {
+            "question": "かっこよかった",
+            "optionA": "kaokoyokata",
+            "optionB": "kokarakota",
+            "correctOption": "kakkoyokatta"
+        },
+    "question-5":
+        {
+            "question": "あんまり",
+            "optionA": "amari",
+            "optionB": "onmori",
+            "correctOption": "anmari"
+        },
+    "question-6":
+        {
+            "question": "あめをたべたい",
+            "optionA": "onu a tahetai",
+            "optionB": "anu wo tabetai",
+            "correctOption": "ame wo tabetai"
+        }
+}

@@ -1,0 +1,45 @@
+{
+    "directions": "Select the correct romanization of the following kanji characters.\nThe number next to the kanji indicates the question number, not the number representing the option.",
+    "question-1":
+        {
+            "question": "学生",
+            "optionA": "kosei",
+            "optionB": "gakusee",
+            "correctOption": "gakusei"
+        },
+    "question-2":
+        {
+            "question": "学校",
+            "optionA": "gakuko",
+            "optionB": "gakugou",
+            "correctOption": "gakkou"
+        },
+    "question-3":
+        {
+            "question": "彼女",
+            "optionA": "konasho",
+            "optionB": "kanosho",
+            "correctOption": "kanojo"
+        },
+    "question-4":
+        {
+            "question": "動画",
+            "optionA": "touga",
+            "optionB": "doga",
+            "correctOption": "douga"
+        },
+    "question-5":
+        {
+            "question": "赤",
+            "optionA": "aga",
+            "optionB": "akka",
+            "correctOption": "aka"
+        },
+    "question-6":
+        {
+            "question": "紫",
+            "optionA": "tomare",
+            "optionB": "ocha",
+            "correctOption": "murasaki"
+        }
+}

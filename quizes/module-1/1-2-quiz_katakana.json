@@ -1,0 +1,45 @@
+{
+    "directions": "Select the correct romanization of the following katakana characters.\nThe number next to the katakana indicates the question number, not the number representing the option.",
+    "question-1":
+        {
+            "question": "カード",
+            "optionA": "kado",
+            "optionB": "kato",
+            "correctOption": "kaado"
+        },
+    "question-2":
+        {
+            "question": "ラーメン",
+            "optionA": "ramen",
+            "optionB": "waanun",
+            "correctOption": "raamen"
+        },
+    "question-3":
+        {
+            "question": "カニバル",
+            "optionA": "kaniharo",
+            "optionB": "kamibaru",
+            "correctOption": "kanibaru"
+        },
+    "question-4":
+        {
+            "question": "ゲーム",
+            "optionA": "gema",
+            "optionB": "kemu",
+            "correctOption": "geemu"
+        },
+    "question-5":
+        {
+            "question": "アニメーション",
+            "optionA": "anime",
+            "optionB": "rininuushin",
+            "correctOption": "animeeshon"
+        },
+    "question-6":
+        {
+            "question": "ハッキリ",
+            "optionA": "bakkuri",
+            "optionB": "hakiri",
+            "correctOption": "hakkiri"
+        }
+}
