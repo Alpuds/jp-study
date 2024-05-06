@@ -35,7 +35,7 @@ def quiz_loop(quiz_file: str):
             print(f"{index + 1}. {options}")
 
         # The correct option is always the last item in the inner dictionary.
-        correctNum = value.__len__()
+        correctNum = len(value)
 
         print("")
 
