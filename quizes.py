@@ -1,4 +1,5 @@
 import json
+import random
 
 import utils
 
@@ -31,11 +32,14 @@ def quiz_loop(quiz_file: str):
         del value["question"]
         print("")
 
-        for index, options in enumerate(value.values()):
-            print(f"{index + 1}. {options}")
-
-        # The correct option is always the last item in the inner dictionary.
-        correctNum = len(value)
+        # Randomize the order of the options
+        opts = list(value.values())
+        random.shuffle(opts)
+        correctNum = 0
+        for index, option in enumerate(opts):
+            print(f"{index + 1}. {option}")
+            if option == value["correctOption"]:
+                correctNum = index + 1
 
         print("")
 
