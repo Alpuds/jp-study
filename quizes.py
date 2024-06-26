@@ -12,7 +12,7 @@ def quiz_loop(quiz_file: str):
     regard to what was the correct answer.
 
     Parameters
-    quiz_file: A string of the path of a JSON file with the questions and answers.
+    quiz_file: The path of a JSON file with the questions and answers.
     """
     with open(quiz_file, "r") as file:
         questions = json.load(file)
@@ -24,11 +24,11 @@ def quiz_loop(quiz_file: str):
     del questions["directions"]
 
     for key, value in questions.items():
-        # key is the question in the top level of the dictionary (e.g., queston-1).
+        # key is the question at the top of the dictionary (e.g., queston-1).
         # value is the inner dictionary that contains the question and options.
         question_num = key.split("-")[1]
         print(utils.color_text("36m", f"{question_num}: {value['question']}"))
-        # Get rid of the key, question, so the options are left in the inner-dictionary.
+        # Remove the key, question, so options remain in the inner-dictionary.
         del value["question"]
         print("")
 
@@ -53,5 +53,6 @@ def quiz_loop(quiz_file: str):
         else:
             print(utils.color_text("31m", "✕ Incorrect"))
             print(
-                f"The {utils.color_text('32m', 'correct answer')} is {utils.color_text('32m', value['correctOption'])}.\n"
+                f"The {utils.color_text('32m', 'correct answer')} is",
+                f"{utils.color_text('32m', value['correctOption'])}.\n",
             )

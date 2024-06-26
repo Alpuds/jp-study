@@ -41,7 +41,7 @@ def fzf_menu(
     for entry in entries:
         entries_string += f"{entry}\n"
 
-    # Get rid of '\n' for the last entry so the fzf menu does not have a blank listing.
+    # Remove '\n' for the last entry so the fzf menu does not have a blank listing.
     entries_string = entries_string[:-1]
 
     while True:
@@ -62,8 +62,10 @@ def fzf_menu(
             # This happens when the user does ESC or ctrl-C
             break
         elif fzf_output in entries:
-            activity_loop(
-                (fzf_output, entries[fzf_output])
-            ) if tuple else activity_loop((entries[fzf_output]))
+            (
+                activity_loop((fzf_output, entries[fzf_output]))
+                if tuple
+                else activity_loop((entries[fzf_output]))
+            )
         else:
             print(color_text("36m", "That does not exist."))
